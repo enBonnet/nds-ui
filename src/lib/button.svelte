@@ -14,15 +14,28 @@
   .button {
     position: relative;
     font-weight: 700;
-    padding: 11px 22px;
-    font-size: inherit;
     overflow: hidden;
-    margin: 18px 0 20px;
+    margin-top: 10px;
+    font-size: inherit;
     top: -8px;
     border-radius: 10px;
     color: #050505;
   }
   /* customizations */
+  .button.sm {
+    padding: 8px 16px;
+  }
+  .button.md {
+    padding: 11px 22px;
+  }
+  .button.lg {
+    padding: 14px 28px;
+    font-size: 22px;
+  }
+  .button.xl {
+    padding: 17px 34px;
+    font-size: 28px;
+  }
   .button.green {
     border: solid 2px #165a38;
     background: #67daa2;
